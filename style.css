@@ -1,0 +1,26 @@
+/* Basic CSS styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#cart {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="product-list">
+        <!-- Product items in the list -->
+        <div class="product">
+            <p>Product A - $10</p>
+            <button onclick="addToCart('A')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <p>Product B - $15</p>
+            <button onclick="addToCart('B')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <p>Product C - $20</p>
+            <button onclick="addToCart('C')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <p>Product D - $25</p>
+            <button onclick="addToCart('D')">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Cart display section -->
+    <div id="cart">
+        <h2>Cart</h2>
+        <div id="cart-items"></div>
+        <p>Total Quantity: <span id="total-quantity">0</span></p>
+        <p>Total Price: $<span id="total-price">0</span></p>
+    </div>
+
+
+</body>
+</html>
